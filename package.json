@@ -1,0 +1,28 @@
+{
+  "name": "sddb",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/sddb.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/sddb/issues"
+  },
+  "homepage": "https://github.com/konsumer/sddb#readme",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "local-dynamo": "^0.5.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.623.0",
+    "nanoid": "^2.1.11"
+  }
+}
