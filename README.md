@@ -20,6 +20,9 @@ All records should look like this:
 const SDDB = require('sddb')
 const ddb = new SDDB('data') // "data" is table-name
 
+// setup table-structure
+ddb.setup()
+
 ddb.get({ owner: 'konsumer' }) // get all objects, of any sub-type, owned by konsumer
 ddb.get({ id: 'A' }) // get all objects, of any sub-type, with specific id
 ddb.get({ owner: 'konsumer' }, 'Thing') // get the Things owned by konsumer
