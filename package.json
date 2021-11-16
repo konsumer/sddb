@@ -22,7 +22,7 @@
     "local-dynamo": "^0.5.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.623.0",
+    "aws-sdk": "^2.814.0",
     "nanoid": "^2.1.11"
   }
 }
