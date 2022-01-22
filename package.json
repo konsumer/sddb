@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "aws-sdk": "^2.623.0",
-    "nanoid": "^2.1.11"
+    "nanoid": "^3.1.31"
   }
 }
